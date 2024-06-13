@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="quiz-form">
+            <h1>Formulário de Pontuação</h1>
+            <div class="question">
+                <label>Pergunta 1: <strong>Você fuma</strong></label>
+                <div class="perguntas">
+                    <input  type="radio" class="input-alternativa" name="question1" value="10"> Não<br>
+                    <input  type="radio" class="input-alternativa" name="question1" value="7"> Raramente<br>
+                    <input  type="radio" class="input-alternativa" name="question1" value="5"> Frequentemnte<br>
+                    <input  type="radio" class="input-alternativa" name="question1" value="3"> Sempre
+                </div>
+            </div>
+            <div class="question">
+                <label>Pergunta 2: <strong>Você consome bebida alcolica</strong></label>
+                <div class="perguntas">
+                    <input type="radio" class="input-alternativa" name="question2" value="10"> Não<br>
+                    <input type="radio" class="input-alternativa" name="question2" value="7"> Raramente<br>
+                    <input type="radio" class="input-alternativa" name="question2" value="5"> Frequentemnte<br>
+                    <input type="radio" class="input-alternativa" name="question2" value="3"> Sempre
+                </div>
+            </div>
+            
+            <button type="button" onclick="calculateScore()">Calcular Pontuação</button>
+            <p id="result"></p>
+        </form>
+    </div>
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
