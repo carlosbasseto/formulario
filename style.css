@@ -69,3 +69,22 @@ button:hover {
 .input-alternativa{
     margin-left: 55px;
 }
+
+a{
+    text-decoration:none ;
+}
+
+.btn{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.proxima{
+    margin-left: 34%;
+    text-align: center;
+    background-color: rgb(255, 213, 1);
+    padding: 10px;
+    border-radius: 18px;
+    width: 200px;
+}
